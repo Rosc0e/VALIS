@@ -24,6 +24,8 @@
   },
   "devDependencies": {
     "@types/three": "^0.152.1",
-    "daisyui": "^3.0.20"
+    "daisyui": "^3.0.20",
+    "prettier": "2.8.8",
+    "prettier-plugin-tailwindcss": "^0.3.0"
   }
 }

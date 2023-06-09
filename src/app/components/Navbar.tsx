@@ -4,9 +4,9 @@ import Link from "next/link";
 function Navbar() {
   return (
     <div className=" 	">
-      <div className="navbar w-5/6 border border-black mx-auto mt-10 transition ease-in-out delay-150 duration-300 ">
+      <div className="navbar mx-auto mt-10 w-5/6 border border-black transition delay-150 duration-300 ease-in-out ">
         <div className="flex-1">
-          <Link href="/" className="btn btn-ghost border">
+          <Link href="/" className="btn-ghost btn border">
             <span className="text-outline text-3xl">VALIS</span>
           </Link>
         </div>
@@ -18,7 +18,7 @@ function Navbar() {
             <li>
               <details>
                 <summary className="text-1xl">Menu</summary>
-                <ul className="p-2 z-50 bg-base-100">
+                <ul className="z-50 bg-base-100 p-2">
                   <li>
                     <Link href="/portfolio">Portfolio</Link>
                   </li>

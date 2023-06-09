@@ -2,13 +2,13 @@ import React from "react";
 
 function BackGround() {
   return (
-    <div className="fixed -z-10 w-screen top-0 h-screen overflow-hidden">
+    <div className="fixed top-0 -z-10 h-screen w-screen overflow-hidden">
       <video
         playsInline={true}
         autoPlay={true}
         muted={true}
         loop={true}
-        className="min-w-full min-h-full fixed object-fill"
+        className="fixed min-h-full min-w-full object-fill"
       >
         {/* <source
           src="//starlink.ua/media/mod_starlink/car-blur.webm"

@@ -10,17 +10,17 @@ function Navbar() {
         <div className="flex-none">
           <ul className="menu menu-horizontal px-1">
             <li>
-              <a>Contact</a>
+              <a></a>
             </li>
             <li>
               <details>
                 <summary>Menu</summary>
                 <ul className="p-2 bg-base-100">
                   <li>
-                    <a>Link 1</a>
+                    <a>Portfolio</a>
                   </li>
                   <li>
-                    <a>Link 2</a>
+                    <a>Process</a>
                   </li>
                 </ul>
               </details>

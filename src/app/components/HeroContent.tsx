@@ -3,7 +3,7 @@ import React from "react";
 function Content() {
   return (
     <>
-      <div className="  w-5/6  container m-10 p-10 border border-black text-center mx-auto ">
+      <div className="  bg-orange-500 lg:bg-transparent md:m-10 md:p-10 border border-black text-center mx-auto ">
         <article className="">
           At VALIS, we decode the language of your imagination and bring it to
           life through the alchemy of web design, crafting digital experiences

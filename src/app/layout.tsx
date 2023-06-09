@@ -1,5 +1,6 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
+import BackGround from "./components/BackGround";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +18,7 @@ export default function RootLayout({
     <html data-theme="lofi" lang="en">
       <body className={inter.className}>
         {children}
-        <script src="https://unpkg.com/taos@1.0.3/dist/taos.js" async />
+        <BackGround />
       </body>
     </html>
   );

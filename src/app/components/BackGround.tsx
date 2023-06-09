@@ -9,12 +9,12 @@ function BackGround() {
         loop={true}
         className="min-w-full min-h-full fixed object-fill"
       >
-        <source
+        {/* <source
           src="//starlink.ua/media/mod_starlink/car-blur.webm"
           type="video/webm"
-        />
+        /> */}
         <source
-          src="//starlink.ua/media/mod_starlink/car-blur.mp4"
+          src="https://www.w3schools.com/howto/rain.mp4"
           type="video/mp4"
         />
       </video>

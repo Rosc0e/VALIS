@@ -15,7 +15,7 @@ function Navbar() {
             <li>
               <details>
                 <summary>Menu</summary>
-                <ul className="p-2 bg-base-100">
+                <ul className="p-2 z-50 bg-base-100">
                   <li>
                     <a>Portfolio</a>
                   </li>

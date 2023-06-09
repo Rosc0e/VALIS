@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+.text-outline {
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+/* body {
+  border: 1px;
+  border-color: black;
+} */
+
 /* .navbar {
   border: 2px solid black;
 } */

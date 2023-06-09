@@ -7,8 +7,8 @@ function Hero() {
       <div className="hero  w-10/12	mx-auto border lg:min-h-[75vh] sm: max-h-[25vh]  border-black sm:mt-10 md:mt-20  bg-white">
         <div className="hero-content flex text-center">
           <div className="">
-            <h1 className=" text-sm md:text-5xl  font-bold">Hello there</h1>
-            <p className="text-sm lg:text-xl py-6">
+            <h1 className=" text-md md:text-5xl  font-bold">Hello there</h1>
+            <p className="text-[12px] lg:text-xl py-6">
               Unleashing the Magic of Your Imagination, We Craft Web Experiences
               that Transcend, Captivate, and Resonate.
             </p>

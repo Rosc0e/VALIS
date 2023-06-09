@@ -4,9 +4,9 @@ function BackGround() {
   return (
     <div className="fixed -z-10 w-screen top-0 h-screen overflow-hidden">
       <video
-        autoPlay
-        muted
-        loop
+        autoPlay={true}
+        muted={true}
+        loop={true}
         className="min-w-full min-h-full fixed object-fill"
       >
         <source

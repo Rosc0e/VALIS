@@ -2,6 +2,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import BackGround from "./components/BackGround";
 import Navbar from "./components/Navbar";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <BackGround />
         {/* <Navbar /> */}
       </body>
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js" />
     </html>
   );
 }

@@ -3,7 +3,6 @@
 import React from "react";
 import Content from "./HeroContent";
 import Link from "next/link";
-import AnimatedText from "react-animated-text-content";
 
 function Hero() {
   return (
@@ -12,25 +11,7 @@ function Hero() {
         <div className="hero-content flex text-center">
           <div className="">
             <h1 className=" text-md ml16 font-bold md:text-5xl">
-              <AnimatedText
-                type="chars" // animate words or chars
-                animation={{
-                  x: "200px",
-                  y: "100px",
-                  scale: 1.1,
-                  ease: "ease-in-out",
-                }}
-                animationType="rifle"
-                interval={0.07}
-                duration={0.1}
-                tag="p"
-                className="animated-paragraph"
-                includeWhiteSpaces
-                threshold={0.1}
-                rootMargin="20%"
-              >
-                Virtual Artistry and Logical Interface Specialists
-              </AnimatedText>
+              Virtual Artistry and Logical Interface Specialists
             </h1>
             <p className="py-6 text-[12px] lg:text-xl">
               Unleashing the Magic of Your Imagination, We Craft Web Experiences

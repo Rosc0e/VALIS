@@ -10,7 +10,7 @@ function Hero() {
       <div className=" hero	mx-auto max-h-[25vh] w-10/12 border border-black  bg-white sm:mt-10 md:mt-20  lg:min-h-[75vh]">
         <div className="hero-content flex text-center">
           <div className="">
-            <h1 className=" text-md ml16 font-bold md:text-5xl">
+            <h1 className=" text-md  font-bold md:text-5xl">
               Virtual Artistry and Logical Interface Specialists
             </h1>
             <p className="py-6 text-[12px] lg:text-xl">
@@ -24,9 +24,9 @@ function Hero() {
               <Link href="/Starting"> get started</Link>
             </button> */}
 
-            <div className=" collapse mx-auto w-2/12 bg-black text-center  text-white sm:mt-10">
+            <div className=" collapse mx-auto   bg-black text-white sm:mt-10">
               <input type="checkbox" />
-              <div className="collapse-title text-center text-xl font-medium">
+              <div className="collapse-title ml-2 flex items-center justify-center text-xl font-medium">
                 Contact
               </div>
               <div className="collapse-content">

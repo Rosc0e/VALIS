@@ -3,7 +3,7 @@ import React from "react";
 function Content() {
   return (
     <>
-      <div className="  mx-auto border border-black bg-orange-500 text-center transition duration-300 ease-in-out md:m-10 md:p-10 lg:bg-transparent lg:hover:bg-orange-500 ">
+      <div className="  mx-auto border border-black bg-orange-500  bg-opacity-95 text-center transition duration-300 ease-in-out md:m-10 md:p-10 lg:bg-transparent lg:hover:bg-orange-500 ">
         <article className=" p-2 ">
           At{" "}
           <span className=" transition  duration-300 ease-in-out hover:text-teal-500">

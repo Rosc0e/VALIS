@@ -14,7 +14,7 @@ function BackGround() {
           src="//starlink.ua/media/mod_starlink/car-blur.webm"
           type="video/webm"
         /> */}
-        <source src="/bg3.mp4" type="video/mp4" />
+        <source src="/output.webm" type="video/webM" />
       </video>
     </div>
   );
